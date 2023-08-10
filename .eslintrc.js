@@ -31,10 +31,8 @@ module.exports = {
       "error",
       "double"
     ],
-    "semi": [
-      "error",
-      "always"
-    ],
+    "semi": "off",
+    "@typescript-eslint/semi": ["error"],
     "eqeqeq": "error",
     "no-trailing-spaces": "error",
     "object-curly-spacing": [
